@@ -1,6 +1,16 @@
 The data is collected from the accelerometers from the Samsung Galaxy S smartphone. 
 
-The variables extracted are      
+The first column has the variable "subjectID" which takes the values from 1 to 30. Each unique number represents one subject.
+
+The second column has the variable "activityName" which can take the following values:   
+* WALKING   
+* WALKING_UPSTAIRS   
+* WALKING_DOWNSTAIRS   
+* SITTING  
+* STANDING   
+* LAYING   
+
+The rest of the columns store the mean and standard deviation of the measurements. The variables extracted are      
 * tBodyAcc-mean()-X,Y,Z        
 * tGravityAcc-mean()-X,Y,Z   	
 * tBodyAccJerk-mean()-X,Y,Z   

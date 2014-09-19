@@ -38,5 +38,7 @@ write.csv(completeData,"completeData.csv",row.names=FALSE)
 
 # Step 5: Create a second independent tidy data set with the average of each variable for each activity and each subject
 aggData<-aggregate(completeData[,3:ncol(completeData)],list(completeData$SubjectNo, completeData$TrainingLabel), FUN=mean, na.rm=TRUE)
+colnames(aggData)[1]<-c("SubjectID");
+colnames(aggData)[2]<-c("ActivityName");
 write.table(aggData,"aggData.txt",row.names=FALSE)
 write.csv(aggData,"aggData.csv",row.names=FALSE)

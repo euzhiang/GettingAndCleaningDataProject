@@ -36,4 +36,11 @@ The rest of the columns store the mean and standard deviation of the measurement
 * fBodyBodyGyroJerkMag-mean()    
 * fBodyBodyGyroJerkMag-meanFreq()   
 
+The tidy data is obtained after performing the following steps:   
+1. I read the test and training data.   
+2. I assign column names to the table.   
+3. I combine the test and training data into one data table.   
+4. I extract the mean and standard deviation for each measurement.   
+5. I use descriptive names for the activities.   
+6. I aggregate the data values with the average of each variable for each activity and each subject. 
 

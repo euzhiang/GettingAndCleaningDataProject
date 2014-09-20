@@ -10,7 +10,7 @@ The second column has the variable "activityName" which can take the following v
 * STANDING   
 * LAYING   
 
-The rest of the columns store the mean and standard deviation of the measurements. The variables extracted are      
+The rest of the columns store the mean and standard deviation of the measurements. The range of values for these variables are from -1 to 1. The variables extracted are      
 * tBodyAcc-mean()-X,Y,Z        
 * tGravityAcc-mean()-X,Y,Z   	
 * tBodyAccJerk-mean()-X,Y,Z   
